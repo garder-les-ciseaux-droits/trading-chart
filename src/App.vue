@@ -1,7 +1,7 @@
 <template>
   <main>
-    <section class="w-screen h-screen flex justify-center items-center bg-[url('/Users/evanvosh/Documents/Portfolio/TradingView/trading-chart/src/assets/background.jpg')] bg-cover bg-center min-w-0 max-w-[1440px] max-h-[900]">
-      <div class="relative w-[1440px] overflow-hidden h-full flex flex-col items-center justify-center bg-[url('/Users/evanvosh/Documents/Portfolio/TradingView/trading-chart/src/assets/background.jpg')] bg-cover bg-center min-w-0">
+    <section class="w-screen h-screen flex justify-center items-center bg-[url('/src/assets/background.jpg')] bg-cover bg-center min-w-0 max-w-[1440px] max-h-[900]">
+      <div class="relative w-[1440px] overflow-hidden h-full flex flex-col items-center justify-center bg-[url('/src/assets/background.jpg')] bg-cover bg-center min-w-0">
         <div class="w-full h-full absolute bg-black opacity-70"></div>
         <div class="w-full h-[40px] opacity-100 absolute top-0  flex">
           <div class="w-[70px] h-full flex items-center pl-2" v-for="ohlc in ohlcData" :key="ohlc.id">
